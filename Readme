@@ -1,0 +1,19 @@
+COMP2401 Assignment03
+
+Name:		Lilian Wang
+StudentNumber:	101087269
+
+Source file:
+		parkingSimulator.c
+		simulator2.c
+		Readme
+
+Compiling:
+
+	For parkingSimulator.c:
+		gcc -Wall -o park parkingSimulator.c
+		./park
+
+	For simulator2.c:
+		gcc -Wall -o simulator simulator2.c
+		valgrind ./simulator
